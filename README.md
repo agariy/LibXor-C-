@@ -62,7 +62,7 @@ dXor(char *output, char input);
 
 ```c
 
-dXor(buffer, buffer);
+axor(buffer, message);
 printf("Crypted message: %s\n", buffer);
 dXor(buffer, buffer);
 printf("Decrypted message: %s\n", buffer);
